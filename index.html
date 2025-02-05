@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
+
+    <!--Inserimento Font Open Sans-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+    <!--/Inserimento Font Open Sans-->
+
     <!--Inserimento Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -14,11 +21,36 @@
     <!--Foglio di stile css-->
     <link rel="stylesheet" href="css/style.css">
     <!--/Foglio di stile css-->
+
 </head>
 
 <body>
     <!--Intestazione della pagina-->
-    <header></header>
+    <header class="d-flex p-fixed">
+
+        <!--Lato sinistro dell'intestazione-->
+        <div class="header-left d-flex">
+            <a href="index.html" class="a-logo"><img src="img/logo-small.png" alt="logo"></a>
+            <ul class="d-flex">
+                <li class="mx-20"><a href="">Perchè Dropbox</a></li>
+                <li class="mx-20"><a href="">Funzioni</a></li>
+                <li class="mx-20"><a href="">Piani e prezzi</a></li>
+            </ul>
+        </div>
+        <!--/Lato sinistro dell'intestazione-->
+
+        <!--Lato destro dell'intestazione-->
+        <div class="header-right d-flex">
+            <ul class="d-flex">
+                <li class="mx-20"><a href="">Supporto</a></li>
+                <li class="mx-20"><a href="">Contatta l'ufficio vendite</a></li>
+                <li class="mx-20"><a href="">Accedi</a></li>
+            </ul>
+            <button class="btn">Inizia</button>
+        </div>
+        <!--/Lato destro dell'intestazione-->
+
+    </header>
     <!--/Intestazione della pagina-->
 
     <!--Corpo della pagina-->
