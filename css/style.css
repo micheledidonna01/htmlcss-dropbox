@@ -15,6 +15,10 @@ COMMAND
     display:flex;
 }
 
+.col{
+    flex-direction: column; 
+}
+
 .p-fixed{
     position:fixed;
 }
@@ -26,6 +30,14 @@ a{
 
 .mx-20{
     margin:0 20px;
+}
+
+.mx-auto{
+    margin:0 auto;
+}
+
+.mt-40{
+    margin-top:40px;
 }
 
 .btn{
@@ -42,7 +54,9 @@ a{
     background-color: #0040FE;
 }
 
-
+.p-relative{
+    position:relative;
+}
 
 /*****************
 INTESTAZIONE DELLA PAGINA
@@ -73,5 +87,56 @@ header ul > li{
 
 header ul > li:hover{
     border-bottom: 1px solid #000000;
+}
+
+
+/*****************
+CORPO DELLA PAGINA
+*****************/
+main{
+    padding-top:80px;
+}
+/*****************
+PRIMA SEZIONE 
+*****************/
+
+main .sez-1{
+    padding-top:105px;
+    margin-bottom:130px;
+    width:100%;
+    background-color:#B5D0E6;
+}
+
+main .sez-1 .sotto-sez-1, h1{
+    max-width:70%;
+}
+
+h1{
+    font-size:65px;
+    line-height:80px;
+    font-weight:bold;
+}
+
+main .sez-1 .sotto-sez-1 .sez-1-left{
+    flex-grow:1;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+#left{
+    align-self:flex-start;
+}
+
+main .sez-1 .sotto-sez-1 .sez-1-left .fa-solid{
+    font-size:40px;
+}
+
+main .sez-1 .sotto-sez-1 .sez-1-right{
+    flex-grow:2;
+}
+
+main .sez-1 .sotto-sez-1 .sez-1-right img{
+    max-width:100%;
+    height:130%;
 }
 
