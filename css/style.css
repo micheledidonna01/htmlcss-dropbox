@@ -105,6 +105,7 @@ main .sez-1{
     margin-bottom:130px;
     width:100%;
     background-color:#B5D0E6;
+    border-bottom: 1px solid #D1DAE1;
 }
 
 main .sez-1 .sotto-sez-1, h1{
@@ -118,7 +119,6 @@ h1{
 }
 
 main .sez-1 .sotto-sez-1 .sez-1-left{
-    flex-grow:1;
     justify-content:space-between;
     align-items:flex-start;
 }
@@ -129,10 +129,6 @@ main .sez-1 .sotto-sez-1 .sez-1-left{
 
 main .sez-1 .sotto-sez-1 .sez-1-left .fa-solid{
     font-size:40px;
-}
-
-main .sez-1 .sotto-sez-1 .sez-1-right{
-    flex-grow:2;
 }
 
 main .sez-1 .sotto-sez-1 .sez-1-right img{
