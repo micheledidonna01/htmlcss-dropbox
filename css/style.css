@@ -83,6 +83,10 @@ COMMAND
     font-size:12px;
 }
 
+.fs-20{
+    font-size:20px;
+}
+
 .text-gray{
     color:#7080B1;
 }
@@ -319,4 +323,33 @@ main .sez-3 .second-item .alt-btn{
     border:1px solid #000000;
     background-color:#FFFFFF;
     margin-top:30px;
+}
+
+
+/*****************
+QUARTA SEZIONE 
+*****************/
+main .container3{
+    padding-top:160px;
+}
+
+main .container3 h3{
+    max-width:60%;
+    padding-bottom:40px;
+}
+
+main .container3 .sez-4 {
+    width:60%;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+main .container3 .sez-4 .card{
+    width:calc((100% - 80px)/3);
+    justify-content: space-between;
+    height:450px;
+}
+
+main .container3 .sez-4 .card img{
+    width:100%;
 }
