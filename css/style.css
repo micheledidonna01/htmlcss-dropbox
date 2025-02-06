@@ -166,13 +166,13 @@ main .sez-1 .sotto-sez-1, h1{
 
 h1{
     font-size:65px;
-    line-height:80px;
     font-weight:bold;
 }
 
 main .sez-1 .sotto-sez-1 .sez-1-left{
     justify-content:space-between;
     align-items:flex-start;
+    padding-top:50px;
 }
 
 #left{
@@ -183,9 +183,12 @@ main .sez-1 .sotto-sez-1 .sez-1-left .fa-solid{
     font-size:40px;
 }
 
+main .sez-1 .sotto-sez-1 .sez-1-right{
+    top:50px;
+}
+
 main .sez-1 .sotto-sez-1 .sez-1-right img{
     max-width:100%;
-    height:130%;
 }
 
 /*****************
