@@ -181,9 +181,13 @@ main .sez-1 .sotto-sez-1 .sez-1-right img{
 SECONDA SEZIONE 
 *****************/
 main .container{
-    border-top: 1px solid #D1DAE1;
-    padding-top:60px;
+    padding:60px 0 220px;
 }
+
+main .container.bt{
+    border-top: 1px solid #D1DAE1;
+}
+
 main .sez-2{
     max-width:60%;
 }
@@ -276,4 +280,43 @@ main .sez-2 .card-container .card-special .desc-card button{
     position:absolute;
     top:15px;
     right:32px;
+}
+
+
+/*****************
+TERZA SEZIONE 
+*****************/
+
+main .sez-3{
+    width:60%;
+}
+
+main .sez-3 .first-item{
+    width:60%;
+}
+
+main .sez-3 .first-item .images{
+    width:100%;
+}
+
+main .sez-3 .second-item{
+    margin-left:50px;
+    width:40%;
+}
+
+main .sez-3 .second-item h3{
+    margin-top:50px;
+}
+
+main .sez-3 .second-item p{
+    margin-top:20px;
+    line-height:24px;
+}
+
+main .sez-3 .second-item .alt-btn{
+    align-self:flex-start;
+    color:#7080B1;
+    border:1px solid #000000;
+    background-color:#FFFFFF;
+    margin-top:30px;
 }
