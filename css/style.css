@@ -23,7 +23,7 @@ COMMAND
     position:fixed;
 }
 
-a{
+.a-li{
     text-decoration:none;
     color: #000000;
 }
@@ -51,11 +51,53 @@ a{
 }
 
 .btn:hover{
-    background-color: #0040FE;
+    filter: brightness(1.4);
 }
 
 .p-relative{
     position:relative;
+}
+
+.d-inline-block{
+    display:inline-block;
+}
+
+.bg-blu{
+    background-color:#0363FF;
+    border: 1px solid #0363FF;
+}
+
+.d-block{
+    display:block;
+}
+
+.fs-24{
+    font-size:24px;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.fs-12{
+    font-size:12px;
+}
+
+.text-gray{
+    color:#7080B1;
+}
+
+.text-white{
+    color:#FFFFFF;
+}
+
+.p-relative{
+    position:relative;
+    top:50px;
+}
+
+.w-50{
+    width:50px;
 }
 
 /*****************
@@ -105,7 +147,6 @@ main .sez-1{
     margin-bottom:130px;
     width:100%;
     background-color:#B5D0E6;
-    border-bottom: 1px solid #D1DAE1;
 }
 
 main .sez-1 .sotto-sez-1, h1{
@@ -136,3 +177,103 @@ main .sez-1 .sotto-sez-1 .sez-1-right img{
     height:130%;
 }
 
+/*****************
+SECONDA SEZIONE 
+*****************/
+main .container{
+    border-top: 1px solid #D1DAE1;
+    padding-top:60px;
+}
+main .sez-2{
+    max-width:60%;
+}
+
+main .sez-2 h2{
+    font-size:40px;
+    font-weight:bold;
+}
+
+main .sez-2 .radio{
+    margin:70px 0 50px;
+}
+
+main .sez-2 .radio .circle{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    justify-content:center;
+    align-items:center;
+    margin-right:4px;
+}
+
+main .sez-2 .radio .circle-small{
+    background-color:#FFFFFF;
+    border-radius:50%;
+    width:10px;
+    height:10px;
+}
+
+main .sez-2 .radio .border-circle{
+    border:1px solid #D0CFD4;
+}
+
+main .sez-2 .radio span{
+    margin-right:50px;
+}
+
+main .sez-2 .card-container{
+    gap:50px;
+    width:100%;
+    flex-wrap:wrap;
+}
+
+main .sez-2 .card-container .card{
+    width: calc((100% - 100px)/3);
+    height:1050px;
+    border:1px solid #D0CFD4;
+}
+
+main .sez-2 .card-container .card > span{
+    text-align:center;
+    border: 1px solid #D0CFD4;
+    padding:14px 0;
+}
+
+main .sez-2 .card-container .card .desc-card{
+    padding:15px 32px;
+}
+
+main .sez-2 .card-container .card .desc-card, .vantagi-card, .type-card, .altri-vantagi-card, .more-info{
+    gap:25px;
+}
+
+.fa-check{
+    color:#0162FF;
+}
+
+main .sez-2 .card-container .card .desc-card li{
+    position:relative;
+    right:20px;
+}
+
+main .sez-2 .card-container .card-special{
+    width:100%;
+    border: 1px solid #D0CFD4;
+} 
+
+main .sez-2 .card-container .card-special > span{
+    text-align:center;
+    border: 1px solid #D0CFD4;
+    padding:14px 0;
+}
+
+main .sez-2 .card-container .card-special .desc-card{
+    padding:15px 32px;
+    position:relative
+}
+
+main .sez-2 .card-container .card-special .desc-card button{
+    position:absolute;
+    top:15px;
+    right:32px;
+}
