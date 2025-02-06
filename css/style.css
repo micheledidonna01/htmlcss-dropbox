@@ -1,7 +1,6 @@
 /*****************
 COMMAND
 *****************/
-
 * {  
     margin: 0;
     padding: 0;
@@ -11,33 +10,8 @@ COMMAND
     font-style: normal;
 } 
 
-.d-flex{
-    display:flex;
-}
-
-.col{
-    flex-direction: column; 
-}
-
-.p-fixed{
-    position:fixed;
-}
-
-.a-li{
-    text-decoration:none;
-    color: #000000;
-}
-
-.mx-20{
-    margin:0 20px;
-}
-
-.mx-auto{
-    margin:0 auto;
-}
-
-.mt-40{
-    margin-top:40px;
+.w-50{
+    width:50px;
 }
 
 .btn{
@@ -54,21 +28,12 @@ COMMAND
     filter: brightness(1.4);
 }
 
-.p-relative{
-    position:relative;
-}
-
-.d-inline-block{
-    display:inline-block;
-}
-
-.bg-blu{
-    background-color:#0363FF;
-    border: 1px solid #0363FF;
-}
-
-.d-block{
-    display:block;
+/*****************
+TEXT
+*****************/
+.a-li{
+    text-decoration:none;
+    color: #000000;
 }
 
 .fs-24{
@@ -95,14 +60,56 @@ COMMAND
     color:#FFFFFF;
 }
 
-.p-relative{
-    position:relative;
-    top:50px;
+.bg-blu{
+    background-color:#0363FF;
+    border: 1px solid #0363FF;
 }
 
-.w-50{
-    width:50px;
+/*****************
+POSITION
+*****************/
+.p-fixed{
+    position:fixed;
 }
+
+.p-relative{
+    position:relative;
+}
+
+/*****************
+MARGIN
+*****************/
+.mx-20{
+    margin:0 20px;
+}
+
+.mx-auto{
+    margin:0 auto;
+}
+
+.mt-40{
+    margin-top:40px;
+}
+
+/*****************
+DISPLAY
+*****************/
+.d-flex{
+    display:flex;
+}
+
+.col{
+    flex-direction: column; 
+}
+
+.d-inline-block{
+    display:inline-block;
+}
+
+.d-block{
+    display:block;
+}
+
 
 /*****************
 INTESTAZIONE DELLA PAGINA
@@ -368,4 +375,44 @@ main .container4 .sez-5{
 
 main .container4 .sez-5 a{
     padding-top:65px;
+}
+
+
+/*****************
+PIEDE DELLA PAGINA
+*****************/
+
+footer{
+    background-color:#000000;
+}
+
+footer .sez-footer{
+    width:70%;
+    padding:100px 0;
+}
+
+footer .sez-footer .list{
+    width: calc(100% / 5);
+}
+
+footer .sez-footer .list h5{
+    margin:10px 0;
+}
+
+footer .sez-footer .list ul li{
+    margin:20px 0;
+}
+
+footer .language{
+    width:70%;
+    padding:50px 0;
+}
+
+footer .language span{
+    border-top: 1px solid #FFFFFF;
+    padding:50px 0;
+}
+
+footer .language .fa-caret-up{
+    top:2px;
 }
