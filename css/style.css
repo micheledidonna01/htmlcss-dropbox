@@ -113,7 +113,7 @@ header{
     background-color:#FFFFFF;
     justify-content:space-between;
     align-items:center;
-    border-bottom:1px solid #D1DAE1;
+    box-shadow:0px 1px 4px 1px #D1DAE1;
     z-index:4;
     padding:0 10px;
 }
@@ -352,4 +352,20 @@ main .container3 .sez-4 .card{
 
 main .container3 .sez-4 .card img{
     width:100%;
+}
+
+/*****************
+QUINTA SEZIONE 
+*****************/
+
+main .container4{
+    padding:200px 0;
+}
+
+main .container4 .sez-5{
+    width:60%;
+}
+
+main .container4 .sez-5 a{
+    padding-top:65px;
 }
